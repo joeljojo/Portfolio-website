@@ -1,0 +1,22 @@
+.top-services {
+  background: #f5f6f7;
+  margin: 0 10% 50px 10%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.top-service-heading {
+  background: #ffffff;
+  margin: 50px 0 50px 0;
+  padding: 10px 150px 10px 10px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+h1,
+h2 {
+  text-align: center;
+}

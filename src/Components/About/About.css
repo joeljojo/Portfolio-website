@@ -1,0 +1,65 @@
+.about {
+  margin-bottom: 80px;
+}
+.contact-icons {
+  float: left;
+  top: 30%;
+  position: fixed;
+}
+.contact-icons ul li {
+  list-style-type: none;
+  padding: 10px 10px 10px 0;
+}
+.content {
+  margin-left: 10%;
+  display: flex;
+}
+.bout-text,
+.personal-pic {
+  width: 50%;
+}
+.about-text {
+  margin: 5% 0 0 0;
+}
+.about-text h1 {
+  text-align: left;
+  padding-right: 100px;
+}
+
+.about-text p {
+  text-align: left;
+  font-size: 20px;
+  padding-right: 100px;
+  color: rgb(160, 156, 156);
+}
+.personal-pic {
+  border: 1px solid black;
+  margin: 5% 5% 0 0;
+}
+.about-btn {
+  font-size: 18px;
+  font: bold;
+  border: 1px solid rgb(175, 171, 247);
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  margin-right: 10%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  width: fit-content;
+  color: #ffffff;
+  background: rgb(17, 17, 182);
+  margin-top: 50px;
+}
+.about-btn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(17, 17, 182);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
