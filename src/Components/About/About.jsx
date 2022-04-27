@@ -1,22 +1,44 @@
 import React from "react";
 import "../About/About.css";
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import PersonalPicture from "../../Images/web-pic2.PNG";
+import { IconContext } from "react-icons";
 const About = () => {
   return (
     <div className="about">
       <div className="contact-icons">
         <ul>
           <li>
-            <FaLinkedin />
+            <IconContext.Provider
+              value={{
+                color: "rgb(175, 171, 247)",
+                size: "25px",
+                tooltip: "Linkedin",
+              }}
+            >
+              <FaLinkedin />
+            </IconContext.Provider>
           </li>
           <li>
-            <FaGithub />
+            <IconContext.Provider
+              value={{ color: "rgb(175, 171, 247)", size: "25px" }}
+            >
+              <FaGithub />
+            </IconContext.Provider>
           </li>
           <li>
-            <FaTwitter />
+            <IconContext.Provider
+              value={{ color: "rgb(175, 171, 247)", size: "25px" }}
+            >
+              <FaTwitter />
+            </IconContext.Provider>
           </li>
           <li>
-            <FaInstagram />
+            <IconContext.Provider
+              value={{ color: "rgb(175, 171, 247)", size: "25px" }}
+            >
+              <FaInstagram />
+            </IconContext.Provider>
           </li>
         </ul>
       </div>
@@ -36,7 +58,7 @@ const About = () => {
           <div className="about-btn">Hire Me</div>
         </div>
         <div className="personal-pic">
-          <img src="" alt="Pamphyl Ouma Joel" />
+          <img src={PersonalPicture} alt="Pamphyl Ouma Joel" />
         </div>
       </div>
     </div>

@@ -5,7 +5,12 @@
 }
 .logo {
   float: left;
-  margin-left: 10%;
+  margin: 20px 0 1% 10%;
+  width: 100px;
+  padding: 10px 30px 10px 30px;
+}
+.logo:hover {
+  cursor: pointer;
 }
 .nav-bar {
   margin: 0 auto;
@@ -24,6 +29,11 @@
 .nav-bar ul li:hover {
   cursor: pointer;
   border-bottom: 5px solid rgb(17, 17, 182);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 .contact-btn {
   float: right;
@@ -49,3 +59,7 @@
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
 }
+
+/*================================================
+                 Responsiveness
+================================================= */

@@ -1,8 +1,9 @@
 .top-services {
-  background: #f5f6f7;
+  background: #f8fff7;
   margin: 0 10% 50px 10%;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -11,12 +12,36 @@
 }
 .top-service-heading {
   background: #ffffff;
-  margin: 50px 0 50px 0;
+  margin: 50px 10px 50px 0;
   padding: 10px 150px 10px 10px;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 }
-h1,
-h2 {
+.top-service-heading h1,
+.top-service-heading h2 {
   text-align: center;
 }
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px 30px 10px;
+  margin-bottom: 50px;
+  width: 30%;
+}
+#service3 {
+  margin-right: 50px;
+}
+.service h1,
+.service h2 {
+  text-align: left;
+  font-size: 20px;
+}
+.service p {
+  text-align: left;
+  font-size: 18px;
+}
+
+/*================================================
+                 Responsiveness
+================================================= */
