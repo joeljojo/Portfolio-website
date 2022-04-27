@@ -41,7 +41,40 @@
   text-align: left;
   font-size: 18px;
 }
+#service2 {
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
 
 /*================================================
                  Responsiveness
 ================================================= */
+
+/* Small devices */
+@media screen and (max-width: 840px) {
+  .top-services {
+    background: #f8fff7;
+    margin: 0 10% 50px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+  #service2 {
+    border: none;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px 30px 10px;
+    margin-bottom: 5px;
+    width: 80%;
+    padding-left: 25px;
+  }
+}

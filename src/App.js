@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
-import Work from "./Components/Work/Work";
+import Work from "./Components/Service/Service";
 
 function App() {
   return (

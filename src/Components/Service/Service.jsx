@@ -1,5 +1,5 @@
 import React from "react";
-import "../Work/Work.css";
+import "../Service/Service.css";
 import { FaConnectdevelop, FaReact, FaNodeJs } from "react-icons/fa";
 
 const Work = () => {
@@ -20,7 +20,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="service">
+        <div id="service2" className="service">
           <FaReact size={28} />
           <h2>Frontend</h2>
           <p>

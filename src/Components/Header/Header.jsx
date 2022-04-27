@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../Images/logo2.PNG";
+import { MdMenu } from "react-icons/md";
 import "../Header/Header.css";
 const Header = () => {
   return (
@@ -16,6 +17,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="contact-btn">Contact</div>
+      <div className="mobile-nav-menu">
+        <MdMenu size={28} />
+      </div>
     </div>
   );
 };
