@@ -1,7 +1,7 @@
 import React from "react";
 import "../About/About.css";
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import PersonalPicture from "../../Images/web-pic2.PNG";
+import PersonalPicture from "../../Images/web-pic4.PNG";
 import { IconContext } from "react-icons";
 const About = () => {
   return (
@@ -51,7 +51,7 @@ const About = () => {
           <h1>
             <strong>Developer.</strong>
           </h1>
-          <p>I'm a yound developer and a coding enthusiast</p>
+          <p>I'm a young developer and a coding enthusiast</p>
           <p>with a huge motivation to create user-friendly </p>
           <p>and beautiful websites.</p>
 

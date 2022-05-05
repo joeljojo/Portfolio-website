@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../Images/logo2.PNG";
+import Logo from "../../Images/logo3.PNG";
 import { MdMenu } from "react-icons/md";
 import "../Header/Header.css";
 const Header = () => {
@@ -11,8 +11,8 @@ const Header = () => {
       <div className="nav-bar">
         <ul>
           <li>Home</li>
-          <li>Work</li>
           <li>Services</li>
+          <li>Work</li>
           <li>my cv</li>
         </ul>
       </div>
